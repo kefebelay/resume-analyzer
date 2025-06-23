@@ -62,15 +62,15 @@ resume-analyzer/
 ### 📦 Prerequisites
 
 - Docker & Docker Compose
-- Node.js (if running frontend separately)
-- Python 3.10+
-- (Optional) Airtable or Google Sheets account
+- Node.js 
+- Python 
+- Airtable account
 
 ---
 
 ### 🔧 Environment Variables
 
-Create a `.env` file in the root and fill in:
+Create a .env file in the root and fill in:
 
 env
 JWT_SECRET=your_super_secret
@@ -83,7 +83,6 @@ N8N_WEBHOOK_URL=http://n8n:5678/webhook/...
 
 bash
 docker-compose up --build
-```
 
 ---
 
@@ -97,6 +96,17 @@ docker-compose up --build
 ---
 
 ## 🧠 Example Output
+[
+  {
+    "filename": "John_Doe_Resume.pdf",
+    "fullname": "John Doe",
+    "email": "johndoe@gmail.com",
+    "phone": "+1 234 567 890",
+    "skills": ["React", "Node.js", "CSS", "Leadership"],
+    "experience_years": 3,
+    "last_job_title": "Frontend Developer"
+  }
+]
 
 
 ## 📈 Roadmap
