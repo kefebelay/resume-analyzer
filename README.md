@@ -114,8 +114,6 @@ docker-compose up --build
 - [x] JWT authentication
 - [x] PDF-only upload with validation
 - [x] LLM resume parsing
-- [x] Airtable & Google Sheets integration
-- [ ] Admin dashboard for analytics
-- [ ] Email notifications
+- [x] Airtable 
 
 ---
