@@ -1,8 +1,4 @@
-Here's a **modern, clean, and professional README.md** for your project, assuming it's called **Resume Analyzer** and includes FastAPI, N8N, React (Vite), Docker, and Airtable/Google Sheets integration:
 
----
-
-```md
 # 📄 Resume Analyzer
 
 An automated system to extract, analyze, and store data from PDF resumes using a modern tech stack — including **FastAPI**, **N8N**, **React**, and **Docker**.
@@ -38,7 +34,6 @@ An automated system to extract, analyze, and store data from PDF resumes using a
 ---
 
 ## 📁 Project Structure
-```
 
 resume-analyzer/
 │
@@ -58,7 +53,7 @@ resume-analyzer/
 ├── .env # Environment variables
 └── resume_workflow\.json # n8n automation flow
 
-````
+
 
 ---
 
@@ -77,16 +72,16 @@ resume-analyzer/
 
 Create a `.env` file in the root and fill in:
 
-```env
+env
 JWT_SECRET=your_super_secret
 N8N_WEBHOOK_URL=http://n8n:5678/webhook/...
-````
+
 
 ---
 
 ### 🐳 Run Entire Stack with Docker
 
-```bash
+bash
 docker-compose up --build
 ```
 
@@ -103,21 +98,6 @@ docker-compose up --build
 
 ## 🧠 Example Output
 
-```json
-[
-  {
-    "filename": "John_Doe_Resume.pdf",
-    "fullname": "John Doe",
-    "email": "johndoe@gmail.com",
-    "phone": "+1 234 567 890",
-    "skills": ["React", "Node.js", "CSS", "Leadership"],
-    "experience_years": 3,
-    "last_job_title": "Frontend Developer"
-  }
-]
-```
-
----
 
 ## 📈 Roadmap
 
