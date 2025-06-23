@@ -16,7 +16,7 @@ An automated system to extract, analyze, and store data from PDF resumes using a
 - ✅ JWT-based authentication (login/signup)
 - ✅ LLM-based resume field extraction via **N8N + Gemini/OpenAI**
 - ✅ Data transformation into structured JSON
-- ✅ Store results in Airtable or Google Sheets
+- ✅ Store results in Airtable
 - ✅ Fullstack in Docker (frontend + backend + PostgreSQL + N8N)
 
 ---
